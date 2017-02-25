@@ -1,0 +1,9 @@
+croniter
+Django>=2.1
+django_compressor>=2.2
+psycopg2>=2.7.5
+pytz
+requests>=2.19.1
+gunicorn
+whitenoise
+django-herokuify
