@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+[requires]
+python_version = "3.6"
+
+[packages]
+croniter = "*"
+Django = ">=2.1"
+django_compressor = ">=2.2"
+psycopg2 = ">=2.7.5"
+pytz = "*"
+requests = ">=2.19.1"
+gunicorn = "*"
+django-heroku = "*"
+django-anymail = "*"
