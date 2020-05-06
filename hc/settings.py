@@ -30,7 +30,7 @@ def envint(s, default):
 SECRET_KEY = os.getenv("SECRET_KEY", "---")
 DEBUG = envbool("DEBUG", "True")
 ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "*").split(",")
-DEFAULT_FROM_EMAIL = os.getenv("DEFAULT_FROM_EMAIL", "nobitafei@gmail.com")
+DEFAULT_FROM_EMAIL = os.getenv("DEFAULT_FROM_EMAIL", "")
 SUPPORT_EMAIL = os.getenv("SUPPORT_EMAIL")
 USE_PAYMENTS = envbool("USE_PAYMENTS", "False")
 REGISTRATION_OPEN = envbool("REGISTRATION_OPEN", "True")
